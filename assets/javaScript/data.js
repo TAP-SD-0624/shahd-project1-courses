@@ -8,7 +8,7 @@ const data = [
         subTopics: ["HTML syntax and structure","HTML elements and attributes","HTML forms and input elements",
         "HTML tables and lists","HTML multimedia elements(audio, video, images)","HTML accessibility and semantic markup"],
         favorite: 0,
-        ImagePath: "../logos/html.png"
+        ImagePath: "../assets/html.png"
     },
     {
         description: "",
@@ -18,7 +18,7 @@ const data = [
         rating: 3.8,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/css.webp"
+        ImagePath: "../assets/css.webp"
     },
     {
         description: "",
@@ -28,7 +28,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/javascript.jpg"
+        ImagePath: "../assets/javascript.jpg"
     },
     {
         description: "",
@@ -38,7 +38,7 @@ const data = [
         rating: 3.9,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/jquery.png"
+        ImagePath: "../assets/jquery.png"
     },
     {
         description: "",
@@ -48,7 +48,7 @@ const data = [
         rating: 3.8,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/angular.png"
+        ImagePath: "../assets/angular.png"
     },
     {
         description: "",
@@ -58,7 +58,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/react.webp"
+        ImagePath: "../assets/react.webp"
     },
     {
         description: "",
@@ -68,7 +68,7 @@ const data = [
         rating: 3.8,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/vuejs.jpeg"
+        ImagePath: "../assets/vuejs.jpeg"
     },
     {
         description: "",
@@ -78,7 +78,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/nodejs.webp"
+        ImagePath: "../assets/nodejs.webp"
     },
     {
         description: "",
@@ -88,7 +88,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/expressjs.webp"
+        ImagePath: "../assets/expressjs.webp"
     },
     {
         description: "",
@@ -98,7 +98,7 @@ const data = [
         rating: 3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/ruby.jpeg"
+        ImagePath: "../assets/ruby.jpeg"
     },
     {
         description: "",
@@ -108,7 +108,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/django.jpeg"
+        ImagePath: "../assets/django.jpeg"
     },
     {
         description: "",
@@ -118,7 +118,7 @@ const data = [
         rating: 3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/flask.webp"
+        ImagePath: "../assets/flask.webp"
     },
     {
         description: "",
@@ -128,7 +128,7 @@ const data = [
         rating: 4.2,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/sql.png"
+        ImagePath: "../assets/sql.png"
     },
     {
         description: "",
@@ -138,7 +138,7 @@ const data = [
         rating: 4.3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/nosql.png"
+        ImagePath: "../assets/nosql.png"
     },
     {
         description: "",
@@ -148,7 +148,7 @@ const data = [
         rating: 3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/restapi.jpeg"
+        ImagePath: "../assets/restapi.jpeg"
     },
     {
         description: "",
@@ -158,7 +158,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/graphql.png"
+        ImagePath: "../assets/graphql.png"
     },
     {
         description: "",
@@ -168,7 +168,7 @@ const data = [
         rating: 3.6,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/oauth.png"
+        ImagePath: "../assets/oauth.png"
     },
     {
         description: "",
@@ -178,7 +178,7 @@ const data = [
         rating: 3.8,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/json.png"
+        ImagePath: "../assets/json.png"
     },
     {
         description: "",
@@ -188,7 +188,7 @@ const data = [
         rating: 3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/ajax.gif"
+        ImagePath: "../assets/ajax.gif"
     },
     {
         description: "",
@@ -198,7 +198,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/websockets.png"
+        ImagePath: "../assets/websockets.png"
     },
     {
         description: "",
@@ -208,7 +208,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/responsive.gif"
+        ImagePath: "../assets/responsive.gif"
     },
     {
         description: "",
@@ -218,7 +218,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/accessibility.png"
+        ImagePath: "../assets/accessibility.png"
     },
     {
         description: "",
@@ -228,7 +228,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/ux.jpeg"
+        ImagePath: "../assets/ux.jpeg"
     },
     {
         description: "",
@@ -238,7 +238,7 @@ const data = [
         rating: 3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/ui.png"
+        ImagePath: "../assets/ui.png"
     },
     {
         description: "",
@@ -248,7 +248,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/design-systems.jpeg"
+        ImagePath: "../assets/design-systems.jpeg"
     },
     {
         description: "",
@@ -258,7 +258,7 @@ const data = [
         rating: 3.2,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/performance.png"
+        ImagePath: "../assets/performance.png"
     },
     {
         description: "",
@@ -268,7 +268,7 @@ const data = [
         rating: 42,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/cross-browser.jpeg"
+        ImagePath: "../assets/cross-browser.jpeg"
     },
     {
         description: "",
@@ -278,7 +278,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/seo.jpeg"
+        ImagePath: "../assets/seo.jpeg"
     },
     {
         description: "",
@@ -288,7 +288,7 @@ const data = [
         rating: 3.9,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/web-security.jpeg"
+        ImagePath: "../assets/web-security.jpeg"
     },
     {
         description: "",
@@ -298,7 +298,7 @@ const data = [
         rating: 4.4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/testing.jpeg"
+        ImagePath: "../assets/testing.jpeg"
     },
     {
         description: "",
@@ -308,7 +308,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/ci-cd.jpeg"
+        ImagePath: "../assets/ci-cd.jpeg"
     },
     {
         description: "",
@@ -318,7 +318,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/devops.png"
+        ImagePath: "../assets/devops.png"
     },
     {
         description: "",
@@ -328,7 +328,7 @@ const data = [
         rating: 4.2,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/cloud.jpeg"
+        ImagePath: "../assets/cloud.jpeg"
     },
     {
         description: "",
@@ -338,7 +338,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/docker.png"
+        ImagePath: "../assets/docker.png"
     },
     {
         description: "",
@@ -348,7 +348,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/microservices.png"
+        ImagePath: "../assets/microservices.png"
     },
     {
         description: "",
@@ -358,7 +358,7 @@ const data = [
         rating: 3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/pwa.png"
+        ImagePath: "../assets/pwa.png"
     },
     {
         description: "",
@@ -368,7 +368,7 @@ const data = [
         rating: 4.2,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/wai.jpeg"
+        ImagePath: "../assets/wai.jpeg"
     },
     {
         description: "",
@@ -378,7 +378,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/cms.png"
+        ImagePath: "../assets/cms.png"
     },
     {
         description: "",
@@ -388,7 +388,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/analytics.png"
+        ImagePath: "../assets/analytics.png"
     }
 ]
 
@@ -402,7 +402,7 @@ const fav = [
         subTopics: ["HTML syntax and structure","HTML elements and attributes","HTML forms and input elements",
         "HTML tables and lists","HTML multimedia elements(audio, video, images)","HTML accessibility and semantic markup"],
         favorite: 0,
-        ImagePath: "../logos/html.png"
+        ImagePath: "../assets/html.png"
     },
     {
         description: "",
@@ -412,7 +412,7 @@ const fav = [
         rating: 3.8,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/css.webp"
+        ImagePath: "../assets/css.webp"
     },
     {
         description: "",
@@ -422,6 +422,6 @@ const fav = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../logos/javascript.jpg"
+        ImagePath: "../assets/javascript.jpg"
     }
 ]
