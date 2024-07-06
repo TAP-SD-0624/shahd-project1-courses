@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg_default);
+}
+
+body {
+  /* min-height: calc(100vh - 168.8px - 53.6px); */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito Sans";
+  background-color: var(--bg_body);
+  color: var(--body-text);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0.83rem;
+}
+
+.gab {
+  gap: 0.5rem;
+}
+.nav {
+  padding: 16px 48px;
+}
+
+.mode-btn,
+.favourites-btn {
+  border: 1px solid var(--lines-color);
+  border-radius: 4.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.8px;
+  color: var(--body-text);
+}
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#heart-icon-btn,
+#mode-icon-btn {
+  width: 13px;
+  height: 13px;
+}
+
+#heart-icon-btn {
+  color: var(--body-text);
+}
+
+#heart-icon-btn.clicked {
+  color: #dc143c;
+}
+
+#mode-icon-btn {
+  color: var(--body-text);
+}
+
+#mode-icon-btn.clicked {
+  color: #c2d055;
+}
+.two-triangles-box {
+  position: relative;
+  max-height: 120px;
+}
+
+.triangle1,
+.triangle2 {
+  width: 100%;
+  min-height: 60px;
+}
+
+.triangle1 {
+  clip-path: polygon(0 0, 0 100%, 80% 0);
+  background: rgb(7, 104, 172);
+  background: linear-gradient(
+    90deg,
+    var(--brand-primary) 0%,
+    var(--brand-secondary) 100%
+  );
+}
+
+.triangle2 {
+  position: absolute;
+  background-color: var(--brand-secondary);
+  clip-path: polygon(0 0, 100% 100%, 100% 0);
+}
+
+.welcome-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transform: translateY(-1rem);
+  background-color: transparent;
+}
+
+.welcome-box * {
+  background-color: transparent;
+}
+
+.welcome-box h2 {
+  text-align: left;
+  color: var(--brand-secondary);
+}

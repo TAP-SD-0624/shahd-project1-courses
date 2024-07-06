@@ -1,0 +1,236 @@
+/* Existing styles */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.relative-container {
+  position: relative;
+  min-width: 250px;
+}
+
+.topic-of-card {
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  overflow: auto;
+  text-align: left;
+  cursor: pointer;
+  border: 1px solid var(--white-color);
+  background-color: var(--white-color);
+  box-shadow: 0 14px 28px var(--lines-color) (0, 0, 0, 0.08), 0 10px 10px var(--lines-color) (0, 0, 0, 0.05);
+}
+
+.topic-card-img {
+  width: 100%;
+  height: 128px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topic-card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding-top: 0;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.details-ul .star-filled:nth-child(2), .star-outline:nth-child(2) {
+  color: var(--star-color);
+  background-color: var(--bg_details);
+}
+
+.star-filled:nth-child(1), .star-outline:nth-child(1) {
+  color: var(--star-color);
+  background-color: none;
+}
+
+.label {
+  font-size: 0.6rem;
+}
+
+.nav-h3 {
+  color: var(--brand-primary);
+}
+
+.nums-topic-found-h2 {
+  color: var(--body-text);
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--bg_body);
+}
+
+.details, .sub-topics-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-block: 24px;
+  gap: 2rem;
+}
+
+.sub-topics-container {
+  background-color: var(--bg_body);
+  justify-content: left;
+}
+
+.sub-topics-container .relative-container {
+  background-color: transparent;
+}
+
+.details {
+  width: 100%;
+  background-color: var(--bg_details); /* Adjust background color as needed */
+  gap: 1rem; /* Adjust as per your design */
+  position: relative; /* Check if this is necessary */
+}
+
+
+h4 {
+  color: var(--brand-secondary);
+  background-color: var(--bg_details);
+}
+
+.details-ul {
+  background-color: var(--bg_details);
+}
+
+.details-ul li {
+  background-color: var(--bg_details);
+}
+
+.details-ul li ion-icon {
+  background-color: var(--bg_details);
+}
+
+.details-h3, .details-p {
+  color: var(--white-color);
+  background-color: var(--bg_details);
+}
+
+.details-div, .sub-topics-div {
+  width: 100%; /* Adjusted to full width */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.details-div {
+  background-color: var(--bg_details);
+  max-width: 535px;
+}
+
+.p-h5-a-div {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 10px;
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+.p-h5-a-div h5 {
+  background-color: var(--white-color);
+  color: var (--black-color);
+}
+
+.p-h5-a-div a {
+  background-color: var(--white-color);
+}
+
+.favourite-div {
+  border: 1px solid var(--favourite-border);
+  padding: 16px;
+  align-items: center;
+  background-color: var(--white-color);
+}
+
+.favourite-information-div {
+  background-color: var(--white-color);
+  padding: 16px;
+}
+
+.favourite-div p {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+.add-to-favourite-div {
+  background-color: var(--brand-secondary);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#add-to-favourite-btn {
+  color: var(--white-color);
+  background-color: var(--brand-secondary);
+  padding: 8px;
+}
+
+.add-span, .fav-icon {
+  background-color: var(--brand-secondary);
+}
+
+.favourite-div p {
+  margin-bottom: 10px;
+}
+
+.add-to-favourite-bottom {
+  margin-top: 10px;
+  text-align: center;
+  color: gray;
+}
+
+.sub-topics-div {
+  width: 40%; /* Adjusted to a smaller percentage */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--lines-color);
+  margin-left: 20%; /* Adjusted to center the smaller div */
+  padding: 10px; /* Reduced padding for a smaller overall size */
+}
+
+.sub-topic {
+  padding: 15px;
+  width: 100%;
+  border-bottom: 1px solid var(--lines-color);
+  border-radius: 8px;
+}
+
+.sub-topic span {
+  color: var(--body-text);
+}
+
+.sub-topic-last-div {
+  padding: 15px;
+  width: 100%;
+}
+
+.sub-topic-last-div span {
+  color: var(--body-text);
+}
+
+.check-icon {
+  color: var(--brand-secondary);
+}
+
+.sub-topics-h4 {
+  color: var(--body-text);
+  background-color: var(--bg_default);
+}

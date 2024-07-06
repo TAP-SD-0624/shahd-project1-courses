@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Web Topics</title>
+    <title>Details Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,9 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
       rel="stylesheet"
     />
- 
-   
-
     
     <link rel="stylesheet" href="styles/generlColors.css" />
     
@@ -23,19 +20,13 @@
     
     <link rel="stylesheet" href="styles/favourits.css" />
     
-    
     <link rel="stylesheet" href="styles/footer.css" />
-
     
     <link rel="stylesheet" href="styles/mediaQueries.css" />
     <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </head>
 
-
-
   <body class="light-mode container">
-
-    <!-- start header -->
     <div class="header-body-section">
       <header class="header">
         <div class="flex nav">
@@ -53,69 +44,32 @@
             </button>
           </div>
         </div>
-        <!-- triangles -->
         <div class="two-triangles-box">
           <div class="triangle2"></div>
           <div class="triangle1"></div>
-        </div>
-<!-- welcome -->
-        <div class="welcome-box">
-          <div>
-            <h2>Welcome to our website!</h2>
-            <p>We have a new design that's fresh, modern, and easy to use.</p>
+          <div class="welcome-box">
+            <div>
+              <h2>Welcome to our website!</h2>
+              <p>We have a new design that's fresh, modern, and easy to use.</p>
+            </div>
           </div>
         </div>
       </header>
 
-      <main>
-        <div class="flex search-sort-filter-box">
-          <div class="flex gab search-box">
-            <ion-icon name="search-outline"></ion-icon>
-            <input
-              class="search"
-              name="search"
-              type="text"
-              placeholder="Search the website..."
-            />
-          </div>
-
-          <div class="flex selectors-box">
-            <div class="select">
-              <div class="select-label-container">
-                <label class="label" for="sort">Sort by:</label>
-                <select name="sort" id="sort">
-                  <option value="default">Default</option>
-                  <option value="option2">link1</option>
-                  <option value="option3">link2</option>
-                  <option value="option4">link3</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="select">
-              <div class="select-label-container">
-                <label class="label" for="filter">Filter by:</label>
-                <select name="filter" id="filter">
-                  <option value="default">Default</option>
-                  <option value="option2">link1</option>
-                  <option value="option3">link2</option>
-                  <option value="option4">link3</option>
-                </select>
-              </div>
-            </div>
+      <main-container>
+        <div class="main-div">
+          <div class="details"></div>
+          <div class="sub-topics-container">
+            <div class="sub-topics-div"></div>
           </div>
         </div>
-
-        <h2 class="nums-topic-found-h2">"24" Web Topics Found</h2>
-
-        <div class="courses"></div>
-      </main>
-
+      </main-container>
       <div class="favourites">
         <p class="favourites-p">My Favourite Topics</p>
         <div class="favourites-div"></div>
       </div>
     </div>
+
     <div class="footer-section">
       <footer>
         <div class="footer-div gab">
